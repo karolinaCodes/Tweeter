@@ -50,10 +50,20 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-      praesentium quos debitis voluptates veniam distinctio tempora quisquam!
-      Vero, minima, consequuntur, commodi nam adipisci quos et consectetur
-      doloremque dolores eveniet facilis.
+      <section class="new-tweet">
+        <h2>Compose Tweet</h2>
+        <form method="POST" action="/tweets">
+          <textarea
+            name="text"
+            id="tweet-text"
+            placeholder="What are you humming about?"
+          ></textarea>
+          <div id="tweet-action">
+            <button type="submit" class="tweet-btn">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
