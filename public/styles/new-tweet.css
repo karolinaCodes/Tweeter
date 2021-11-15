@@ -4,12 +4,12 @@
   align-items: center;
 }
 
-#tweet-text {
-  width: 50vw;
+#new-tweet-text {
+  width: 50rem;
   background-color: #f3f1eb;
   border: none;
   padding-bottom: 13px;
-  border-bottom: 3.5px solid #545149;
+  border-bottom: 0.3rem solid #545149;
   font-weight: 600;
 }
 
@@ -17,7 +17,7 @@
   outline: none;
 }
 
-#tweet-action {
+#new-tweet-action {
   display: flex;
   justify-content: space-between;
   margin-top: 12px;

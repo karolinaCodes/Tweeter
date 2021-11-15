@@ -1,5 +1,6 @@
 $(document).ready(() => {
   $("#tweet-text").on("input", function () {
+    //refactor?
     const maxLimit = 140;
     const inputLength = $(this).val().length;
     const counterVal = maxLimit - inputLength;

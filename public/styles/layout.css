@@ -29,4 +29,11 @@ body {
 main {
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* is this the right spot? */
+.tweets {
+  margin: 2.5rem auto;
 }
