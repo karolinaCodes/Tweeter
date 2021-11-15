@@ -36,3 +36,7 @@
   font-family: "Bungee", "sans-serif";
   margin-right: 6px;
 }
+
+.invalid {
+  color: red;
+}
