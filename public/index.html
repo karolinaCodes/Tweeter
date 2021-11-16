@@ -75,6 +75,14 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
+      <div id="form-error" class="hide">
+        <i class="fas fa-exclamation-triangle"></i>
+        <span id="form-error-msg"
+          >Too long. Plz respect our arbitrary limit of 140 chars.
+          #kthxbye.</span
+        >
+        <i class="fas fa-exclamation-triangle"></i>
+      </div>
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets" id="new-tweet-form">

@@ -24,23 +24,23 @@ $(document).ready(() => {
   // return a tweet <article></article> element with dynamically filled tweet data
   const createTweetElement = tweetObj => {
     const $tweet = $(`<article class="tweet"><header>
-  <div class="user-profile">
+    <div class="user-profile">
     <img src="${tweetObj.user.avatars}"></img>
     <h4 class="user-name">${tweetObj.user.name}</h4>
-  </div>
-  <h4 class="user-handle">${tweetObj.user.handle}</h4>
-</header>
-<div class="tweet-text">
-${escape(tweetObj.content.text)}
-</div>
-<footer>
-  <span class="time-passed">${timeago.format(tweetObj.created_at)}</span>
-  <div class="tweet-action">
+    </div>
+    <h4 class="user-handle">${tweetObj.user.handle}</h4>
+    </header>
+    <div class="tweet-text">
+    ${escape(tweetObj.content.text)}
+    </div>
+    <footer>
+     <span class="time-passed">${timeago.format(tweetObj.created_at)}</span>
+     <div class="tweet-action">
     <i class="fas fa-flag"></i>
     <i class="fas fa-retweet"></i>
     <i class="fas fa-heart"></i>
-  </div>
-</footer></article>`);
+     </div>
+    </footer></article>`);
     return $tweet;
   };
 
@@ -60,14 +60,18 @@ ${escape(tweetObj.content.text)}
     const $formInputEl = $(this).find("#new-tweet-text");
     const inputLength = $formInputEl.val().length;
 
+    $("#form-error").slideUp("slow");
+
     // if the input is empty, display error message
     if (!inputLength) {
-      return alert("You did not put any tweet content!");
+      $("#form-error-msg").text("You did not put any tweet content!");
+      return $("#form-error").slideDown("slow");
     }
 
     //if tweet is longer than 140 char,  display error message
     if (maxLimit - inputLength < 0) {
-      return alert("Your tweet content is too long!");
+      $("#form-error-msg").text("Your tweet is too long!!");
+      return $("#form-error").slideDown("slow");
     }
 
     const tweet = $(this).serialize();
