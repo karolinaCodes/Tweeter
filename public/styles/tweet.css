@@ -19,9 +19,13 @@
   font-weight: 300;
 }
 
-.user-icon {
-  margin-left: 0.63rem;
-  margin-right: 0.63rem;
+article.tweet {
+  margin-bottom: 3rem;
+}
+
+article.tweet img {
+  margin: 0.63rem;
+  height: 4.5rem;
 }
 
 article.tweet header {
@@ -40,20 +44,20 @@ article.tweet header {
   font-size: 1.4rem;
 }
 
-.article.tweet footer {
+article.tweet footer {
   border-top: 0.22rem solid #545149;
   padding: 0.63rem 1.5rem;
   display: flex;
   justify-content: space-between;
 }
 
-.article.tweet i {
+article.tweet i {
   margin-left: 0.4rem;
   color: #3f54a1;
   font-size: 1.2rem;
 }
 
-.article.tweet i:hover {
+article.tweet i:hover {
   color: #c99826;
   cursor: pointer;
 }

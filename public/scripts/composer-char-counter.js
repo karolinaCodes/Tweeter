@@ -5,14 +5,14 @@ $(document).ready(() => {
     const inputLength = $(this).val().length;
     const counterVal = maxLimit - inputLength;
 
-    const counterEl = $(this).parent().find(".counter");
+    const $counterEl = $(this).parent().find(".counter");
 
-    counterEl.text(counterVal);
+    $counterEl.text(counterVal);
 
     if (counterVal < 0) {
-      counterEl.addClass("invalid");
+      $counterEl.addClass("invalid");
     } else {
-      counterEl.removeClass("invalid");
+      $counterEl.removeClass("invalid");
     }
   });
 });
