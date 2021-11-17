@@ -1,7 +1,12 @@
-.new-tweet {
+.new-tweet-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+#new-tweet-form {
+  width: 100%;
 }
 
 .new-tweet-text {
@@ -11,6 +16,9 @@
   padding-bottom: 13px;
   border-bottom: 0.3rem solid #545149;
   font-weight: 600;
+  width: 100%;
+  resize: none;
+  /* wrap: off; */
 }
 
 .new-tweet-text:focus {

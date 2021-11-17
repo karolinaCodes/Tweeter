@@ -38,6 +38,11 @@ main {
   margin: 2.5rem auto;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 1024px) {
   .profile-header {
     height: 400px;
@@ -49,18 +54,30 @@ main {
   }
 
   .profile-header {
-    width: 40% !important;
     float: left;
-    width: 39%;
+    width: 28%;
     height: 20% !important;
-    margin-top: 14rem;
-    margin-left: 3rem;
+    /* margin-top: 12rem;
+    margin-left: 4rem; */
+  }
+
+  .profile-header img {
+    margin-top: 27px !important;
   }
 
   .container {
-    width: 60%;
+    width: 62%;
     float: right;
-    margin-top: 120px;
+    margin: 120px 0px 120px 200px;
+  }
+
+  .flex-container {
+    flex-direction: row;
+    margin: 85px 60px;
+  }
+
+  #tweets-container {
+    width: 100%;
   }
 }
 
