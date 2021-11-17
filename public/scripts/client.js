@@ -57,7 +57,7 @@ $(document).ready(() => {
     e.preventDefault();
     // put in constants file?
     const maxLimit = 140;
-    const $formInputEl = $(this).find("#new-tweet-text");
+    const $formInputEl = $(this).find(".new-tweet-text");
     const inputLength = $formInputEl.val().length;
 
     $("#form-error").slideUp("slow");

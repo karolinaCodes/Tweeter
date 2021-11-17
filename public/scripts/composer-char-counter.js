@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  $("#new-tweet-text").on("input", function () {
+  $(".new-tweet-text").on("input", function () {
     //refactor?
     const maxLimit = 140;
     const inputLength = $(this).val().length;

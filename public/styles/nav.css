@@ -1,9 +1,10 @@
 nav {
-  height: 120px;
+  height: 100px;
   width: 100vw;
-  background-color: #4056a1;
+  background-color: transparent;
+  /* background-color: #4056a1; */
   color: #ffffff;
-  padding: 1.5em;
+  padding: 1.5em 2.2em 1.5em 1.5em;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -25,5 +26,8 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 50px;
+  font-size: 21px;
+  font-weight: 300;
+  margin-top: -5px;
 }

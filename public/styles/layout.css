@@ -37,3 +37,37 @@ main {
 #tweets-container {
   margin: 2.5rem auto;
 }
+
+@media only screen and (min-width: 1024px) {
+  .profile-header {
+    height: 400px;
+    margin-top: 120px;
+  }
+
+  nav {
+    background-color: #4056a1 !important;
+  }
+
+  .profile-header {
+    width: 40% !important;
+    float: left;
+    width: 39%;
+    height: 20% !important;
+    margin-top: 14rem;
+    margin-left: 3rem;
+  }
+
+  .container {
+    width: 60%;
+    float: right;
+    margin-top: 120px;
+  }
+}
+
+/* between () is the condition - true, the styles are applied */
+/* for tablet too? second breakpoint? */
+/* @media only screen and (min-width: 1024px) {
+  h2 {
+    color: red;
+  }
+} */

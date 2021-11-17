@@ -52,6 +52,13 @@
       type="text/javascript"
       src="/scripts/composer-char-counter.js"
     ></script>
+
+    <!-- Meta Tags -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <!-- this gave me issue with mobile version -->
   </head>
 
   <body>
@@ -84,11 +91,10 @@
         <i class="fas fa-exclamation-triangle"></i>
       </div>
       <section class="new-tweet">
-        <h2>Compose Tweet</h2>
         <form method="POST" action="/tweets" id="new-tweet-form">
           <textarea
             name="text"
-            id="new-tweet-text"
+            class="new-tweet-text"
             placeholder="What are you humming about?"
           ></textarea>
           <div id="new-tweet-action">

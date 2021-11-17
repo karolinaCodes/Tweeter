@@ -4,13 +4,17 @@
   align-items: center;
 }
 
-#new-tweet-text {
+.new-tweet-text {
   width: 50rem;
   background-color: #f3f1eb;
   border: none;
   padding-bottom: 13px;
   border-bottom: 0.3rem solid #545149;
   font-weight: 600;
+}
+
+.new-tweet-text:focus {
+  outline: none;
 }
 
 #tweet-text:focus {
