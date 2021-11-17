@@ -17,6 +17,7 @@
 
 .user-name {
   font-weight: 300;
+  line-height: 11px;
 }
 
 article.tweet {
@@ -24,8 +25,8 @@ article.tweet {
 }
 
 article.tweet img {
-  margin: 0.63rem;
-  height: 4.5rem;
+  margin: 0.6em;
+  height: 2.3em;
 }
 
 article.tweet header {
@@ -36,6 +37,7 @@ article.tweet header {
 .user-handle {
   margin-right: 0.73rem;
   color: #ced3e5;
+  line-height: 11px;
 }
 
 .tweet-text {
@@ -50,7 +52,7 @@ article.tweet header {
 
 article.tweet footer {
   border-top: 0.22rem solid #545149;
-  padding: 0.63rem 1.5rem;
+  padding: 0.6rem 1.4rem 0.5rem 1.4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -58,7 +60,7 @@ article.tweet footer {
 article.tweet i {
   margin-left: 0.4rem;
   color: #3f54a1;
-  font-size: 1.2rem;
+  font-size: 0.7em;
 }
 
 article.tweet i:hover {
