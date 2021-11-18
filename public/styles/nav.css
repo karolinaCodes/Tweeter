@@ -4,7 +4,8 @@ nav {
   background-color: #719fd1;
   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   color: #ffffff;
-  padding: 1.5em 2.2em 1.5em 1.5em;
+  /* padding: 0.9em; */
+  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -27,13 +28,18 @@ nav {
   align-items: center;
   justify-content: space-between;
   height: 50px;
-  font-size: 21px;
+  font-size: 1.2rem;
   font-weight: 300;
   margin-top: -5px;
 }
 
 @media only screen and (min-width: 1024px) {
   nav {
-    background-color: #0a3766 !important;
+    background-color: #0a3766;
+    padding: 1.5em 2.2em 1.5em 1.5em;
+  }
+
+  .content-right {
+    font-size: 21px;
   }
 }
