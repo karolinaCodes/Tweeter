@@ -6,16 +6,15 @@ It was built using HTML, CSS, JavaScript, AJAX and jQuery for the front-end, and
 ## Final Product
 
 !["screenshot of main page"](./docs/mainpage.jpeg)
-The tweeter app contains a form field in which you can write and submit your new tweet. 🐥
+The tweeter app contains a form field in which you can write and submit your new tweets. 🐥
 
 !["screenshot of tablet version"](./docs/tabletversion.jpeg)
-Tweeter was built with CSS flexbox in order to make it responsive and tablet-friendly. 👍
+Tweeter is a responsive app, making it also tablet- and mobile-friendly. 👍
 
 !["screenshot of mobile version"](./docs/mobileversion.jpeg)
-Tweeter was also designed with our mobile-users in mind. 📱
 
 !["screenshot of form demo"](./docs/formdemo.jpeg)
-The form contains a counter which dislays the number of characters left until you reach the character limit. Once you submit a tweet, your new tweet will be added to the stack of tweets below. ✏️
+The tweet form contains a counter which displays the number of characters that are left until you reach the character limit. Once you submit a tweet, your new tweet will be added to the stack of tweets below. ✏️
 
 !["screenshot of blank form error"](./docs/blankformerror.jpeg)
 If you attempt to submit a blank tweet, an error message will appear. ⚠️
