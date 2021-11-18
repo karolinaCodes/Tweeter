@@ -1,8 +1,7 @@
 .tweet {
-  border: 0.3rem solid #545149;
+  border: 0.3rem solid #0a3766;
   padding: 0.5rem;
   width: 100%;
-  /* transition: box-shadow 0.1s; */
 }
 
 /* .article.tweet everywhere?*/
@@ -51,7 +50,7 @@ article.tweet header {
 }
 
 article.tweet footer {
-  border-top: 0.22rem solid #545149;
+  border-top: 0.22rem solid #0a3766;
   padding: 0.6rem 1.4rem 0.5rem 1.4rem;
   display: flex;
   justify-content: space-between;
@@ -64,7 +63,7 @@ article.tweet i {
 }
 
 article.tweet i:hover {
-  color: #c99826;
+  color: #719fd1;
   cursor: pointer;
 }
 

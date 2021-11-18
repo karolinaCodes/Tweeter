@@ -10,15 +10,15 @@
 }
 
 .new-tweet-text {
+  color: #0a3766;
   width: 50rem;
   background-color: #f3f1eb;
   border: none;
   padding-bottom: 13px;
-  border-bottom: 0.3rem solid #545149;
+  border-bottom: 0.3rem solid #0a3766;
   font-weight: 600;
   width: 100%;
   resize: none;
-  /* wrap: off; */
 }
 
 .new-tweet-text:focus {
@@ -37,7 +37,7 @@
 
 .tweet-btn {
   border: none !important;
-  background-color: #4056a1;
+  background-color: #0a3766;
   color: #ffffff;
   font-family: "Bungee", "sans-serif";
   padding: 5px 12px;
@@ -50,21 +50,22 @@
 }
 
 .invalid {
-  color: red;
+  color: #eb3c23;
 }
 
 #form-error {
-  border: 4px solid red;
-  width: 50rem;
-  margin: 2.5rem;
+  border: 4px solid #eb3c23;
+  width: 100%;
   padding: 1.9rem;
-  color: red;
+  color: #eb3c23;
   font-size: 1.5rem;
   text-align: center;
+  margin-bottom: 2em;
+  background-color: #eb3c232b;
 }
 
 #form-error i {
-  color: red;
+  color: #eb3c23;
   margin: 0 0.5rem;
 }
 
@@ -74,4 +75,8 @@
 
 .show {
   display: block;
+}
+
+::placeholder {
+  color: #ced3e5;
 }

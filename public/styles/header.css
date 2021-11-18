@@ -1,19 +1,21 @@
 .profile-header {
-  height: 600px;
+  height: 455px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   background-color: #ffff0069;
   /* width should be 100% of its parent container */
-  background-color: #db4c4c;
+  background-color: #719fd1;
   background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  border-radius: 0;
 }
 
 #header-name {
-  color: rgb(32, 32, 32);
+  color: #ffffff;
   margin: 0 0 30px 0;
   font-weight: 400;
+  font-size: 32px;
 }
 
 .profile-header img {

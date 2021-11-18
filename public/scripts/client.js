@@ -64,14 +64,14 @@ $(document).ready(() => {
 
     // if the input is empty, display error message
     if (!inputLength) {
-      $("#form-error-msg").text("You did not put any tweet content!");
-      return $("#form-error").slideDown("slow");
+      $("#form-error").slideDown("slow");
+      return $("#form-error-msg").text("You cannot post a blank tweet");
     }
 
     //if tweet is longer than 140 char,  display error message
     if (maxLimit - inputLength < 0) {
-      $("#form-error-msg").text("Your tweet is too long!!");
-      return $("#form-error").slideDown("slow");
+      $("#form-error").slideDown("slow");
+      return $("#form-error-msg").text("Your tweet is too long!");
     }
 
     const tweet = $(this).serialize();
