@@ -9,9 +9,9 @@ It was built using HTML, CSS, JavaScript, AJAX and jQuery for the front-end, and
 The tweeter app contains a form field in which you can write and submit your new tweets. 🐥
 
 !["screenshot of tablet version"](./docs/tabletversion.jpeg)
-Tweeter is a responsive app, making it also tablet- and mobile-friendly. 👍
 
 !["screenshot of mobile version"](./docs/mobileversion.jpeg)
+Tweeter is a responsive app, making it also tablet- and mobile-friendly. 👍
 
 !["screenshot of form demo"](./docs/formdemo.jpeg)
 The tweet form contains a counter which displays the number of characters that are left until you reach the character limit. Once you submit a tweet, your new tweet will be added to the stack of tweets below. ✏️
@@ -20,7 +20,7 @@ The tweet form contains a counter which displays the number of characters that a
 If you attempt to submit a blank tweet, an error message will appear. ⚠️
 
 !["screenshot of long tweet error"](./docs/longtweeterror.jpeg)
-Tweeter is designed to be quick and easy. This is why an error message will appear when your tweet is more than 140 characters long. This message will not disappear until your tweet meets our requirements. 🚫
+Tweeter is designed to be quick and easy. This is why an error message will appear when your tweet is more than 140 characters long. This message will not disappear until your tweet meets our requirement. 🚫
 
 ## Getting Started
 
