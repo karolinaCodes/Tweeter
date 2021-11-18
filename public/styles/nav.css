@@ -2,7 +2,7 @@ nav {
   height: 100px;
   width: 100vw;
   background-color: #719fd1;
-  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   color: #ffffff;
   padding: 1.5em 2.2em 1.5em 1.5em;
   display: flex;
@@ -11,7 +11,7 @@ nav {
   top: 0;
 }
 
-#tweeter-logo {
+.tweeter-logo {
   font-family: "Bungee", "sans-serif";
   font-size: 30px;
 }
@@ -21,7 +21,7 @@ nav {
   color: #eb3d23;
 }
 
-#content-right {
+.content-right {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,4 +30,10 @@ nav {
   font-size: 21px;
   font-weight: 300;
   margin-top: -5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    background-color: #0a3766 !important;
+  }
 }

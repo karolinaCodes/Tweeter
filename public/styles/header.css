@@ -7,11 +7,13 @@
   background-color: #ffff0069;
   /* width should be 100% of its parent container */
   background-color: #719fd1;
-  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  /* url("https://www.transparenttextures.com/patterns/az-subtle.png"); */
   border-radius: 0;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
-#header-name {
+.header-name {
   color: #ffffff;
   margin: 0 0 30px 0;
   font-weight: 400;
@@ -20,4 +22,20 @@
 
 .profile-header img {
   margin-top: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .profile-header {
+    width: 34%;
+    height: 20% !important;
+    margin-left: 70px;
+    max-width: 520px;
+    padding: 0.5em 2.1em;
+    margin-right: 4.5em;
+    border-radius: 15px !important;
+  }
+
+  .profile-header img {
+    margin-top: 27px !important;
+  }
 }

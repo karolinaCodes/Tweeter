@@ -64,8 +64,8 @@
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
-      <span id="tweeter-logo">tweeter</span>
-      <div id="content-right">
+      <span class="tweeter-logo">tweeter</span>
+      <div class="content-right">
         <span><b>Write</b> a new tweet</span>
         <i class="fas fa-angle-double-down"></i>
       </div>
@@ -77,13 +77,13 @@
       </div>
       <br />
       <div>
-        <h2 id="header-name"><b>Princess</b> Peach</h2>
+        <h2 class="header-name"><b>Princess</b> Peach</h2>
       </div>
     </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container">
-      <div id="form-error" class="hide">
+    <main class="main-container">
+      <div class="form-error hide">
         <i class="fas fa-exclamation-triangle"></i>
         <span id="form-error-msg"
           >Too long. Plz respect our arbitrary limit of 140 chars.
@@ -92,14 +92,14 @@
         <i class="fas fa-exclamation-triangle"></i>
       </div>
       <section class="new-tweet-container">
-        <form method="POST" action="/tweets" id="new-tweet-form">
+        <form method="POST" action="/tweets" class="new-tweet-form">
           <textarea
             name="text"
             class="new-tweet-text"
             placeholder="What are you humming about?"
             rows="1"
           ></textarea>
-          <div id="new-tweet-action">
+          <div class="new-tweet-action">
             <button type="submit" class="tweet-btn">Tweet</button>
             <output name="counter" class="counter" for="new-tweet-text"
               >140</output

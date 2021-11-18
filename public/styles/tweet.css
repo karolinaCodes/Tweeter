@@ -21,6 +21,7 @@
 
 article.tweet {
   margin-bottom: 3rem;
+  min-width: 450px;
 }
 
 article.tweet img {
@@ -43,10 +44,10 @@ article.tweet header {
   margin: 1rem 1.5rem 3rem 1.5rem;
   font-weight: 400;
   font-size: 1.4rem;
-  word-wrap: break-word;
+  /* word-wrap: break-word; */
   /* if tweet is long it hides the tweet and them add ellipeses at end (...) */
-  /* overflow: hidden;
-  text-overflow: ellipsis; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 article.tweet footer {
@@ -69,4 +70,8 @@ article.tweet i:hover {
 
 .time-passed {
   font-size: 1.1rem;
+}
+
+.fas.fa-heart:hover {
+  color: #eb3d23cc;
 }

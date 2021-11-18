@@ -41,25 +41,7 @@ main {
 }
 
 @media only screen and (min-width: 1024px) {
-  nav {
-    background-color: #0a3766 !important;
-  }
-
-  .profile-header {
-    width: 34%;
-    height: 20% !important;
-    margin-left: 70px;
-    max-width: 520px;
-    padding: 0.5em 2.1em;
-    margin-right: 4.5em;
-    border-radius: 15px !important;
-  }
-
-  .profile-header img {
-    margin-top: 27px !important;
-  }
-
-  .container {
+  .main-container {
     width: 62%;
     max-width: 1000px;
   }
@@ -83,11 +65,3 @@ main {
     margin-right: 70px;
   }
 }
-
-/* between () is the condition - true, the styles are applied */
-/* for tablet too? second breakpoint? */
-/* @media only screen and (min-width: 1024px) {
-  h2 {
-    color: red;
-  }
-} */

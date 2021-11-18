@@ -53,24 +53,24 @@ $(document).ready(() => {
   loadTweets();
 
   // on new-tweet-form submission, POST the data to the server
-  $("#new-tweet-form").submit(function (e) {
+  $(".new-tweet-form").submit(function (e) {
     e.preventDefault();
     // put in constants file?
     const maxLimit = 140;
     const $formInputEl = $(this).find(".new-tweet-text");
     const inputLength = $formInputEl.val().length;
 
-    $("#form-error").slideUp("slow");
+    $(".form-error").slideUp("slow");
 
     // if the input is empty, display error message
     if (!inputLength) {
-      $("#form-error").slideDown("slow");
+      $(".form-error").slideDown("slow");
       return $("#form-error-msg").text("You cannot post a blank tweet");
     }
 
     //if tweet is longer than 140 char,  display error message
     if (maxLimit - inputLength < 0) {
-      $("#form-error").slideDown("slow");
+      $(".form-error").slideDown("slow");
       return $("#form-error-msg").text("Your tweet is too long!");
     }
 
