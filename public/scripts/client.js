@@ -51,7 +51,7 @@ $(document).ready(() => {
     e.preventDefault();
     const maxLimit = 140;
     const $formInputEl = $(this).find(".new-tweet-text");
-    const inputLength = $formInputEl.val().length;
+    const inputLength = $formInputEl.val().trim().length;
 
     // if the error message is shown, hide the element
     $(".form-error").slideUp("slow");
